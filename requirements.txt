@@ -1,0 +1,25 @@
+# KPMG Agentic AI Fundamentals Training — RAG Demo
+# Install: pip install -r requirements.txt
+
+# ── LangChain v1+ ─────────────────────────────────────────────────────────
+langchain>=1.0.0                  # Core package (init_chat_model, init_embeddings)
+langchain-core>=0.3.0             # Primitives: prompts, runnables, output parsers
+langchain-openai>=0.3.0           # OpenAI chat + embedding integrations
+langchain-chroma>=0.1.4           # ChromaDB vector store integration
+langchain-community>=0.3.0        # Community loaders (PyPDFLoader)
+langchain-text-splitters>=0.3.0   # RecursiveCharacterTextSplitter
+
+# ── Vector database ───────────────────────────────────────────────────────
+chromadb>=0.5.0
+
+# ── LLM / Embeddings provider ────────────────────────────────────────────
+openai>=1.30.0
+
+# ── PDF loading ───────────────────────────────────────────────────────────
+pypdf>=4.0.0
+
+# ── UI ───────────────────────────────────────────────────────────────────
+gradio>=4.40.0
+
+# ── Environment ──────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
